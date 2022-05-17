@@ -93,7 +93,7 @@ app.post('/send-message-to-group', [
                 timestamp: null,
                 from: '',
                 to: list_number[i],
-                message: message
+                message: err
         
             })            
         });
